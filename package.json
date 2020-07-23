@@ -1,0 +1,28 @@
+{
+  "name": "expressoracle",
+  "version": "1.0.0",
+  "description": "connect oracle nice",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.4",
+    "oracledb": "^5.0.0",
+    "tunnel-ssh": "^4.1.4"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joekeyel/POCExpressRestapi.git"
+  },
+  "bugs": {
+    "url": "https://github.com/joekeyel/POCExpressRestapi/issues"
+  },
+  "homepage": "https://github.com/joekeyel/POCExpressRestapi#readme"
+}

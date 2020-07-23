@@ -1,0 +1,17 @@
+GET http://localhost:5002/api/user
+
+
+###
+
+GET http://localhost:5002/api/DC_CAGE/?location=123&site=1234
+
+###
+GET http://localhost:5002/api/location
+
+###
+
+GET http://localhost:5002/api/DC_CAGE/?location=123&site=1234
+
+###
+
+GET http://localhost:5002/test
