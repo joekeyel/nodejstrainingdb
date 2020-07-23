@@ -152,20 +152,7 @@ const callapi2 = app.get('/api/user',(req,res)=>{
         //   console.error(err.message);
         // }
   
-        // connection.execute(
-        //   `SELECT *
-        //    FROM DC_USER`,
-        //   [],  
-        //  function(err, result) {
-        //     if (err) {
-        //       console.error(err.message);
-        //       return;
-        //     }
-        //     console.log(result.rows);
-        //     res.send(result.rows)
-        //  });
-
-
+      
 
         var query1p =  connection.execute(
 
